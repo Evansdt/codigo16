@@ -4,12 +4,12 @@ h1 {
     /* en css tenemos la opcion de poner varios tipos de letra */
     /* para que si la primera no existe css busque en la segunda y asi consecutivamente*/
 
-    font-family: apple-system, Arial, Helvetica, sans-serif;
+    font-family: "Assistant";
     font-size: 45px;
     /* font-weight tampies puede recibir numeros iran del 100 a 900*/
     /* !Importante: Al poner un peso en font-weight no hay que colocar unidades de medida */
-    font-weight: 100;
-    text-decoration: 100;
+    font-weight: 200;
+    text-decoration: 200;
     /* text/decoratioon */
     text-decoration: underline;
 }
@@ -19,7 +19,7 @@ h1 {
 */
 
 .parrafo{
-    font-family:"Dank-mono", monospace;
+    font-family:"Pacifico";
     /* font/size sirve para manejar el tama'o del texto*/
     font-size: 100px;
     font-weight: bold;
@@ -81,3 +81,29 @@ ul{
     text-transform: lowercase;
 
 }
+/* Para que CSS puede leer una fuente desde un archivo 
+tenemos que @font-face esto nos permite cargar una fuente externa y darle 
+un nombre para su uso */
+
+/* El font-family en este caso puede ser cualquier nombre
+es una buena practica nombrarla por su nombre oficial */
+
+@font-face {
+    /* En este caso font-family es el nombre de la fuenta */
+    font-family: "Kanit";
+    /* src => Es el lugar donde esta alojado la fuente */
+    src: url("../fonts/Kanit/Kanit-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "Kanit";
+    src: url("../fonts/Kanit/Kanit-BlackItalic.ttf");
+  }
+  
+  .title-2 {
+    font-family: "DancingScript-VariableFont_wght.ttf";
+  }
+  
+  .parrafo-2 {
+    font-family: "KdamThmorPro-Regular.ttf";
+  }
