@@ -1,0 +1,89 @@
+html{
+font-size: 10px;
+}
+
+/*se usara un selector de etiqueta (tag)*/
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+h1{
+    /* font-size: 2em; 2x 20px */
+    front-size: 3rem; /* 2 x 10px (html:raiz) */
+
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.small{
+    /*
+    font-size: 0.6em; /* 0.6x 30px */
+}
+/*selecetor de clase*/
+.solid{
+    border-style: solid;
+    border-color: beige;
+}
+.dashed{
+    border-style: dashed;
+    border-color: rgb(rgb(23, 24, 40), rgb(100, 158, 100), blue);
+    border-width: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dotted{
+    border-style: dotted;
+    border-color: blueviolet;
+    border-width: 5px;
+    
+}
+.double{
+    border-style: double;
+    border-color: rgb(62, 12, 95);
+    border-width:5pt;
+}
+.groove{
+    border-style: groove;
+    border-color: black;
+    border-width: 0.3cm;
+}
+.hidden{
+    border-style: hidden;
+    border-color: rgb(103, 15, 227);
+    border-width: 8pc;
+}
+.inherent{
+    border-style: inherit;
+    border-color: rgb(195, 49, 144);
+    border-width: 50px;
+}
+#bnuevo:hover{
+    color: blue;
+    border-style: initial;
+}
+.formato{
+    /* los valores puende ir en cualquier orden */
+    /*pueden abreviar tres propiedades en la propiedad borde*/
+    border: 3px dotted blue;
+}
+.left_solid{
+    border-left:solid red 4px
+}
+.rigth-dotted{
+    border-right: dotted pink 4px;
+}
+.top-dashed{
+    border-top: dashed 2px gray;
+}
+.botton-double{
+    border-bottom: double 5px red;
+}
+.mix-left-top{
+    border-style: solid double dashed dotted;
+    border-width: 5px 2px ;
+    border-color: black red red blue;
+}
