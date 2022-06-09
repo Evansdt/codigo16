@@ -1,0 +1,64 @@
+.bg-box{
+height: 400px;
+width: 400px;
+background-color: red;
+position: relative;
+/* al agregar un position a un elemento este nos da la opcion de usatr los siguientes 
+top
+left
+right
+botton
+si no existe un position no se pueden usar la etiquetas mencionadas*/
+/*left: 100px;*/
+top: 100px;
+right: 100px;
+}
+.padre{
+width: 500px ;
+height: 500px;
+background-color: aqua;
+position: relative;
+
+}
+.hijo{
+    width: 100px ;
+    height: 100px;
+    background-color: rgb(0, 8, 8);
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+
+}
+.Bandera{
+    height: 100vh;
+    border: solid;
+    /* vamos a poner un position relative en este div*/
+    position: relative;
+}
+.green{
+    background-color: green;
+    height: 100vh;
+    width: 40%;
+    float: left;
+
+}
+.red{
+  background-color: red;  
+  height: 100vh;
+  width: 60%;
+ float: right;
+}
+/* Nota: sabemos que la foto mide 180px x 180px */
+/* El cuadrado que lo contiene mide 200px x 2000px */
+/* para que la foto creza y ocupe esos pixeles  */
+/* podemos usar la propiedad cover */
+.escudo{
+    background: url("../images/Coat_of_arms_of_Portugal_\(Lesser\).svg.png") ;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: calc(50% - 94px);
+    left: calc(40% - 94px);
+
+}

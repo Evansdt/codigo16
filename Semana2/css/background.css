@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana,
+}
+.bg{
+    border: solid;
+    height: 300px;
+}
+.color-red {
+    background-color: red;
+}
+.color-green{
+    background-color: green;
+}
+.bg-img{
+    background: url("../../Semana1/images/how-to-become-a-web-developer-it-1024x512.jpeg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.bg-img-goku{
+background: url("../images/kame_house_vida_real_0.jpeg");
+/* Estamos diciendo que este div tenga
+  un alto de 500px */
+height: 500px;
+background-size:cover ;
+/* Esto indica
+  que queremos mostrar la 
+  parte central de la imagen */
+background-position: center;
+background-repeat: no-repeat;
+
+}
