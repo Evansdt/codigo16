@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+}
+
+#contenedor{
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+}
+
+#campos{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.form-control{
+    margin-top: 20px;
+}
+
+#User{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#user:focus{
+    height: 40px;
+    border: 5px dotted blue;
+}
+
+#Pass {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+}
+
+#pass:focus{
+    transform: scale(1.5) translate(10px, 10px)
+}
+
+#submit{
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+}
+
+#submit:hover{
+    background-color: white;
+    color: rgb(83, 118, 85);
+    border: 1px rgb(83, 118, 85);
+    transform: scale(0.5);
+}
+

@@ -1,0 +1,57 @@
+body{background-color: rgb(190, 190, 190);
+}
+#contenedor{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(red 10%, blue 30%, green 70%, yellow 100%);
+    /* red inici en 0px ira hasta 20px*/
+    /* el blue inicia en 20
+    margin auto;*/
+}
+h1{
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+}
+h1:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-style: italic;
+    color: blue;
+}
+.sombra{
+    /*primer parametro: eje x (default derecha) */
+    /*2 parametro: eje Y (default abajo)*/
+    /*3 parametro blur difuminacion*/
+    /*4 parametro  spread propagacion hace crecer o reducir la sombra*/
+    /*color*/
+    box-shadow: 20px -20px 15px -5px rgb(60, 128, 0);
+    
+     
+}
+
+#circulo{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(red, white, red);
+    /*background-color: blue;*/
+    margin: 60px;
+    border-radius: 100px;
+    /*filter:blur(3px) grayscale(70%)*/
+    filter: blur(10px) opacity(0.8);
+    /*border-top-left-radius: 20px;*/
+    /*border-top-right-radius: 100px;*/
+    /*border-bottom-right-radius: 100px;*/
+}
+#circulo:hover{
+    background: none;
+    background-color: blue;
+    filter: none;
+}
+.sombra_texto{
+    /*1 parametro eje x (deaful derecha)*/
+    /*2 parametro: eje y (default abajo)*/
+    /*3parametro: blur (difumigacion) */
+    /* 4 parametro color*/
+    text-shadow: 10px 10px 5px  yellow;
+}

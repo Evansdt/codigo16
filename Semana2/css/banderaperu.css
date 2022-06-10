@@ -1,0 +1,29 @@
+body{background-color: rgb(190, 190, 190);
+}
+#contenedor{
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(to right, red 30%, white 30% ,white 70%, red 70%);
+}
+
+#contenedor:hover{
+    background: linear-gradient(to top, red 30%, white 30% ,white 70%, red 70%);
+    
+}
+.sombra{
+    /*primer parametro: eje x (default derecha) */
+    /*2 parametro: eje Y (default abajo)*/
+    /*3 parametro blur difuminacion*/
+    /*4 parametro  spread propagacion hace crecer o reducir la sombra*/
+    /*color*/
+    box-shadow: 20px -20px 15px -5px ;
+    
+     
+}
+.sombra_texto{
+    /*1 parametro eje x (deaful derecha)*/
+    /*2 parametro: eje y (default abajo)*/
+    /*3parametro: blur (difumigacion) */
+    /* 4 parametro color*/
+    text-shadow: 10px 10px 5px  yellow;
+}
