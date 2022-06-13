@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+  
+}
+.contenedor{
+background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+}
+.cubo{
+    width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    text-align: center;
+    box-shadow:  0px 20px 0 30px  hsl(220, 54%, 11%), 0px 20px 0 30px hsl(215, 32%, 27%);
+}
+img{
+    width: 100%;
+    border-radius: 10px; 
+}
+      
+h2{
+    font-weight: 600;
+    color: white;
+    text-align: left;
+}
+p{
+    margin-bottom: 20px;
+    color:hsl(215, 51%, 70%) ;
+    font-weight: 100;
+    text-align: left;
+}
+.valor{
+    text-align: left;
+}
+
+.etherium{
+    color: hsl(178, 100%, 50%);  
+
+}
+.etherium img{
+    position: relative;
+    width: 10px;
+    position: relative;
+    left: auto;
+    padding-left: 10px;
+    float: left;
+     
+}
+.clock{
+    color:hsl(215, 51%, 70%) ;
+    text-align: right;
+    float: right;
+}
+.clock img {
+    color:hsl(215, 51%, 70%) ;
+    float: left;
+    width: 20px;
+    padding-left: 20px;
+}
+hr{
+    color:hsl(215, 32%, 27%) ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.avatar{
+    width: 50px;
+    border-radius: 20px hsl(0, 0%, 100%);
+    text-align: center;
+    float: left;
+}
+.texto{
+    text-align:center;
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    right:70px ;
+    top: 25px;
+}
+a{
+    color: white;
+}
+
